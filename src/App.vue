@@ -1,10 +1,17 @@
 <script>
+import HeaderVue from './components/Header.vue';
+
+export default{
+    components : {
+        HeaderVue,
+    }
+}
 </script>
 
 <template>
-<AppTitle> La mia prima app con vite</AppTitle>
+    <HeaderVue />
 </template>
-  
+
 <style scoped>
 
 </style>
